@@ -37,9 +37,9 @@ public class FragmentFollowers extends Fragment {
         View view = inflater.inflate(R.layout.fragment_followers, container, false);
 
         progressDialog = new ProgressDialog(getContext());
-        progressDialog.setTitle("Mohon Tunggu...");
+        progressDialog.setTitle("Please wait");
         progressDialog.setCancelable(false);
-        progressDialog.setMessage("Sedang menampilkan data");
+        progressDialog.setMessage("Searching for data");
 
         rvListFollowers = view.findViewById(R.id.rvListFollowers);
         layoutEmpty = view.findViewById(R.id.layoutEmpty);

@@ -37,7 +37,7 @@ public class FragmentFollowing extends Fragment {
         View view = inflater.inflate(R.layout.fragment_following, container, false);
 
         progressDialog = new ProgressDialog(getContext());
-        progressDialog.setTitle("Mohon Tunggu...");
+        progressDialog.setTitle("Please wait");
         progressDialog.setCancelable(false);
         progressDialog.setMessage("Searching for data");
 

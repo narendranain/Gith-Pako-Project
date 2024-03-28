@@ -11,7 +11,6 @@ import com.azhar.peko.ui.fragment.FragmentFollowers;
 import com.azhar.peko.ui.fragment.FragmentFollowing;
 import com.azhar.peko.ui.fragment.FragmentRepository;
 
-
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
     ModelSearchData modelSearchData;

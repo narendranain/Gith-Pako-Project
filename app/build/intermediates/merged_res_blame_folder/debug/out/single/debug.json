@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_baseline_filter_alt_off_24.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/baseline_filter_alt_off_24.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_search.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/raw_lottie_empty.json.flat",
+        "source": "com.azhar.peko.app-main-26:/raw/lottie_empty.json"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_activity_detail.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_clear.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_clear.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_activity_main.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_arrow_right.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_arrow_right.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_fragment_followers.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/fragment_followers.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_bg_search.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/bg_search.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_user.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_github_logo.png.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/github_logo.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_unfavorite.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_unfavorite.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_repo_list.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/repo_list.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_activity_favorite.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/activity_favorite.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_tab_layout_selector.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/tab_layout_selector.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_fragment_repository.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/fragment_repository.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_fragment_following.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/fragment_following.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_list_item_data.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/list_item_data.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.azhar.peko.app-main-26:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/layout_layout_empty.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/layout/layout_empty.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_tab_background_selected.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/tab_background_selected.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/menu_filter_menu.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/menu/filter_menu.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable_ic_favorite.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.azhar.peko.app-merged_res-24:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.azhar.peko.app-main-26:/drawable-v24/ic_launcher_foreground.xml"
+    }
+]

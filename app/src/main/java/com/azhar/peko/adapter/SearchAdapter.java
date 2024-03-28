@@ -12,7 +12,6 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.azhar.peko.R;
-import com.azhar.peko.interfaces.ObjectPassListener;
 import com.azhar.peko.model.search.ModelSearchData;
 import com.azhar.peko.ui.activities.DetailActivity;
 import com.bumptech.glide.Glide;
@@ -23,7 +22,6 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchView
 
     private ArrayList<ModelSearchData> modelSearchDataList = new ArrayList<>();
     private Context context;
-    private ObjectPassListener objectPassListener;
 
 
     public SearchAdapter(Context context) {
@@ -58,14 +56,6 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchView
             intent.putExtra("Nanu", modelSearchDataList.get(position).getAvatarUrl());
             intent.putExtra(DetailActivity.DETAIL_USER, modelSearchDataList.get(position));
             context.startActivity(intent);
-
-            objectPassListener = new ObjectPassListener() {
-                @Override
-                public void onObjectPassed(ModelSearchData searchData) {
-                    objectPassListener.onObjectPassed(modelSearchDataList.get(position));
-
-                }
-            };
 
         });
 

@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.azhar.peko.R;
 import com.azhar.peko.model.follow.ModelFollow;
 import com.bumptech.glide.Glide;
 
@@ -32,7 +33,7 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.FolowersVi
 
     @Override
     public FollowAdapter.FolowersViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(com.azhar.peko.R.layout.list_item_data, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.list_item_data, parent, false);
         return new FolowersViewHolder(view);
     }
 
@@ -70,11 +71,11 @@ public class FollowAdapter extends RecyclerView.Adapter<FollowAdapter.FolowersVi
 
         public FolowersViewHolder(View itemView) {
             super(itemView);
-            cvListUser = itemView.findViewById(com.azhar.peko.R.id.cvListUser);
-            tvUsername = itemView.findViewById(com.azhar.peko.R.id.tvUsername);
-            tvUrl = itemView.findViewById(com.azhar.peko.R.id.tvUrl);
-            imageUser = itemView.findViewById(com.azhar.peko.R.id.imageUser);
-            imageArrow = itemView.findViewById(com.azhar.peko.R.id.imageArrow);
+            cvListUser = itemView.findViewById(R.id.cvListUser);
+            tvUsername = itemView.findViewById(R.id.tvUsername);
+            tvUrl = itemView.findViewById(R.id.tvUrl);
+            imageUser = itemView.findViewById(R.id.imageUser);
+            imageArrow = itemView.findViewById(R.id.imageArrow);
 
             imageArrow.setVisibility(View.GONE);
         }

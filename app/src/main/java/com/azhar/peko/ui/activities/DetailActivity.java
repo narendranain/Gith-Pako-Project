@@ -20,7 +20,6 @@ import com.azhar.peko.adapter.ViewPagerAdapter;
 import com.azhar.peko.database.DatabaseContract;
 import com.azhar.peko.database.DatabaseHelper;
 import com.azhar.peko.database.FavoriteHelper;
-import com.azhar.peko.interfaces.ObjectPassListener;
 import com.azhar.peko.model.search.ModelSearchData;
 import com.azhar.peko.model.user.ModelUser;
 import com.azhar.peko.viewmodel.UserViewModel;
@@ -46,7 +45,6 @@ public class DetailActivity extends AppCompatActivity {
     MaterialFavoriteButton imageFavorite;
     CollapsingToolbarLayout collapsingToolbarLayout;
     private FavoriteHelper favoriteHelper;
-    private ObjectPassListener objectPassListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

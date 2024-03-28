@@ -15,13 +15,11 @@ import com.azhar.peko.networking.ApiClient;
 import com.azhar.peko.networking.ApiInterface;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-
 
 public class UserViewModel extends ViewModel {
 
@@ -170,12 +168,12 @@ public class UserViewModel extends ViewModel {
             @Override
             public int compare(RepositoryDataCap repo1, RepositoryDataCap repo2) {
                 // Compare the stars count of two repositories in descending order
-                return Integer.compare(repo2.getStarsCount(), repo1.getStarsCount());
+                return Integer.compare(repo2.getForksCount(), repo1.getForksCount());
             }
         };
 
         // Sort the repository list using the custom comparator
-        Collections.sort(repositoryList, comparator);
+        repositoryList.sort(comparator);
 
         // Update the LiveData object with the sorted list
         modelRepoMutableLiveData.setValue(repositoryList);
